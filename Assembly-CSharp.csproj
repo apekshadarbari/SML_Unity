@@ -173,6 +173,15 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\Starting.cs" />
+     <Compile Include="Assets\Scripts\AnimatedTexture.cs" />
+     <Compile Include="Assets\Scripts\DestroyOffscreen.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnClick.cs" />
+     <Compile Include="Assets\Scripts\InstantVelocity.cs" />
+     <Compile Include="Assets\Scripts\PixelPerfectCamera.cs" />
+     <Compile Include="Assets\Scripts\SpawnDestroy.cs" />
+     <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\TestMouse.cs" />
+     <Compile Include="Assets\Scripts\TiledBackground.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.5.3.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
