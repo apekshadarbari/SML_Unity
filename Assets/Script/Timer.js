@@ -9,6 +9,9 @@ function Update()
     timer -= Time.deltaTime;
        if (timer<=0)
     {    timer = 0;
+          //Destroy(this.gameObject);
+          Application.LoadLevel("Final_scene");
+         
     }
 }
 
