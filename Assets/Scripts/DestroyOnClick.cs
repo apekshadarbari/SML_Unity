@@ -51,41 +51,66 @@ public class DestroyOnClick : MonoBehaviour {
 		case "RedGrape(Clone)":
 		case "Strawberry(Clone)":
 		case "Watermelon(Clone)":
+		case "BeanSprouts(Clone)":
+		case "BitterMelon(Clone)":
+		case "Carrot(Clone)":
+		case "Cereal(Clone)":
+		case "Chickpea(Clone)":
+		case "Fish(Clone)":
+		case "Greenbean(Clone)":
+		case "GreenVeggie(Clone)":
+		case "Jalepeno(Clone)":
+		case "Lettuce(Clone)":
+		case "Mushroom(Clone)":
+		case "Pea(Clone)":
+		case "Pumpkin(Clone)":
+		case "Raddish(Clone)":
+		case "Shrimp(Clone)":
 			SpawnDestroy.FinalScore += 10;
 //			Debug.Log("score" + finalScore.ToString());
 //			GameScore.text = finalScore.ToString();
 //			SpawnDestroy.finalScore += 10;
 //			Debug.Log ("aft" + SpawnDestroy.FinalScore);
-			RightSound.Play();
-			objectPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 1);
-			StartCoroutine(RespawnObject());
-
-//			Debug.Log ("respawn");
-
 
 			break;
+
+
+		case "Rice(Clone)":
+		case "ChickenLeg(Clone)":
+			SpawnDestroy.FinalScore += 9;
+			break;
+		case "Bagel(Clone)":
+			SpawnDestroy.FinalScore += 8;
+			break;
+		case "LambChop(Clone)":
+		case "Bread(Clone)":
+		case "LoafBread(Clone)":
+			SpawnDestroy.FinalScore += 7;
+			break;
+		case "Cheese(Clone)":
+			SpawnDestroy.FinalScore += 5;
+			break;
+		case "Sausage(Clone)":
+			SpawnDestroy.FinalScore += 4;
+			break;
+		case "Burger(Clone)":
+		case "Candy(Clone)":
+		case "Jello(Clone)":
+		case "Pancake(Clone)":
+		case "Sushi(Clone)":
+			SpawnDestroy.FinalScore += -5;
+			break;
+		case "Coke(Clone)":
+		case "Doughnut(Clone)":
+		case "FriedChicken(Clone)":
+		case "Fries(Clone)":
+		case "Hotdog(Clone)":
+		case "IceTea(Clone)":
+		case "InstantNoodle(Clone)":
+			SpawnDestroy.FinalScore += -10;
+			break;
 //		case "Ball(Clone)":
-//		case "Balloon(Clone)":
-//		case "Baseball(Clone)":
-//		case "Basketball(Clone)":
-//		case "Bomb(Clone)":
-//		case "Box(Clone)":
-//		case "Clock(Clone)":
-//		case "Cloud(Clone)":
-//		case "Flower(Clone)":
-//		case "Glasses(Clone)":
-//		case "Hats(Clone)":
-//		case "Key(Clone)":
-//		case "Magnifier(Clone)":
-//		case "MusicNotes(Clone)":
-//		case "Notebook(Clone)":
-//		case "Pencil(Clone)":
-//		case "PriceTag(Clone)":
-//		case "RubicsCube(Clone)":
-//		case "ShippingBag(Clone)":
-//		case "Socks(Clone)":
-//		case "Sun(Clone)":
-//		case "Tree(Clone)":
+
 //			Debug.Log ("berf" + SpawnDestroy.FinalScore);
 //			SpawnDestroy.FinalScore -= 6;
 //			//			SpawnDestroy.finalScore += 10;
@@ -98,7 +123,9 @@ public class DestroyOnClick : MonoBehaviour {
 			break;
 		
 		}
-
+		RightSound.Play();
+		objectPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 1);
+		StartCoroutine(RespawnObject());
 	}   
 
 	IEnumerator RespawnObject(){

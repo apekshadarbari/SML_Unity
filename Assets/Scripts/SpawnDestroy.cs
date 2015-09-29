@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngin
+
 
 public class SpawnDestroy : MonoBehaviour {
 
