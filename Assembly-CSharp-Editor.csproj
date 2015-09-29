@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{757DB497-B0E2-26FD-BA42-A443ED42577C}</ProjectGuid>
+	<ProjectGuid>{7B937FAC-9BB6-6EFA-5833-D5853903D897}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -151,7 +151,7 @@
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/apeksha_darbari/SmartLittleFoodie_Unity/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/Ron/Documents/Dev/SML_Unity/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
@@ -201,7 +201,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D0F479EB-83DC-D24B-D11D-7CAA295D0AE4}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{0D2830E1-531A-EA83-EB8C-0E88CEA75D31}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

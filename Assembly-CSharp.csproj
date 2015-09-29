@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{D0F479EB-83DC-D24B-D11D-7CAA295D0AE4}</ProjectGuid>
+	<ProjectGuid>{0D2830E1-531A-EA83-EB8C-0E88CEA75D31}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -178,6 +178,7 @@
      <Compile Include="Assets\Scripts\DestroyOnClick.cs" />
      <Compile Include="Assets\Scripts\InstantVelocity.cs" />
      <Compile Include="Assets\Scripts\PixelPerfectCamera.cs" />
+     <Compile Include="Assets\Scripts\ScoreHandler.cs" />
      <Compile Include="Assets\Scripts\SpawnDestroy.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\TestMouse.cs" />
